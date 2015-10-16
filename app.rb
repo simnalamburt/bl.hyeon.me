@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'tilt/erubis'
 
 get '/:title' do
   @title = params['title']
