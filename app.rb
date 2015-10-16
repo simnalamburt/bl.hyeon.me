@@ -1,5 +1,4 @@
 require 'sinatra'
-set :bind, '0.0.0.0'
 
 get '/:title' do
   @title = params['title']
